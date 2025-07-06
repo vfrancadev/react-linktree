@@ -30,10 +30,7 @@ Essa aplicação simula o clássico "Linktree", mas com funcionalidades exclusiv
 
 ---
 
-## 📷 Preview
-
-<a href="https://react-linktree-sable.vercel.app/" />
-
+[🔗 Acesse o site](https://react-linktree-sable.vercel.app/)
 ---
 
 ## 🔧 Como usar
