@@ -32,7 +32,7 @@ Essa aplicação simula o clássico "Linktree", mas com funcionalidades exclusiv
 
 ## 📷 Preview
 
-<img src="./assets/preview.png" alt="Preview do projeto" width="600"/>
+<a href="https://react-linktree-sable.vercel.app/" />
 
 ---
 
