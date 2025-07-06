@@ -1,5 +1,5 @@
 import { Social } from "../../components/Social" 
-import { FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa"
+import {FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa"
 import { db } from "../../services/firebaseConnection"
 import {getDocs, collection, orderBy, query, doc, getDoc} from 'firebase/firestore'
 import { useEffect, useState } from "react"
@@ -89,7 +89,7 @@ loadSocialLinks();
 { socialLinks && Object.keys(socialLinks).length > 0 && (
                 <footer className="flex justify-center gap-3 my-4">
                 <Social url={socialLinks?.facebook}>
-                <FaFacebook size={35} color="#FFF"/>
+                <FaGithub size={35} color="#FFF"/>
                 </Social>
 
                 <Social url={socialLinks?.instagram}>
