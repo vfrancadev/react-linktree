@@ -1,69 +1,45 @@
-# React + TypeScript + Vite
+# 🌐 VFrança Dev — Projeto Linktree com Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu projeto **Linktree personalizado**, desenvolvido com **React + TypeScript + Firebase**.  
+Essa aplicação simula o clássico "Linktree", mas com funcionalidades exclusivas de login, painel admin e integração em tempo real com Firestore! 🔥
 
-Currently, two official plugins are available:
+![Preview](./assets/preview.png) <!-- ou o link da imagem no GitHub/Vercel -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ✅ Visualização dos seus principais links (LinkedIn, GitHub, Instagram, etc)
+- 🔐 Área de **login protegida**
+- ⚙️ Painel **Admin** para editar links e redes sociais diretamente via painel
+- ☁️ **Integração com Firebase** (Firestore + Auth)
+- 💡 Interface responsiva e moderna
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Ferramenta                                                | Descrição                                   |
+| --------------------------------------------------------- | ------------------------------------------- |
+| [React](https://reactjs.org/)                             | Biblioteca para construção da UI            |
+| [TypeScript](https://www.typescriptlang.org/)             | Superset do JavaScript com tipagem estática |
+| [Vite](https://vitejs.dev/)                               | Ferramenta de build rápida e leve           |
+| [Firebase](https://firebase.google.com/)                  | Backend completo com Auth + Firestore       |
+| [React Router](https://reactrouter.com/)                  | Gerenciamento de rotas SPA                  |
+| [CSS Modules](https://github.com/css-modules/css-modules) | Estilização isolada por componente          |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📷 Preview
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<img src="./assets/preview.png" alt="Preview do projeto" width="600"/>
+
+---
+
+## 🔧 Como usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repo.git
+   cd seu-repo
+   ```
