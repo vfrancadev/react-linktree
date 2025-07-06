@@ -3,7 +3,7 @@
 Bem-vindo ao meu projeto **Linktree personalizado**, desenvolvido com **React + TypeScript + Firebase**.  
 Essa aplicação simula o clássico "Linktree", mas com funcionalidades exclusivas de login, painel admin e integração em tempo real com Firestore! 🔥
 
-![Preview](assets/preview.png) <!-- ou o link da imagem no GitHub/Vercel -->
+![Preview](src/assets/preview.png) <!-- ou o link da imagem no GitHub/Vercel -->
 
 ---
 
