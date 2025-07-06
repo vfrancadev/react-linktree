@@ -57,10 +57,10 @@ export function Networks() {
             <h1 className="text-white text-2xl font-medium mt-8 mb-4">Minhas redes sociais</h1>
 
             <form className="flex flex-col max-w-xl w-full" onSubmit={handleRegister}>
-            <label className="text-white font-medium mt-2 mb-2"> Link do Facebook</label>
+            <label className="text-white font-medium mt-2 mb-2"> Link do Github</label>
             <Input
             type="url"
-            placeholder="Digite a url do Facebook"
+            placeholder="Digite a url do Github"
             value={facebook}
             onChange={(e)=> setFacebook(e.target.value)}/>
 
@@ -74,7 +74,7 @@ export function Networks() {
             <label className="text-white font-medium mt-2 mb-2"> Link do Linkedin</label>
             <Input
             type="url"
-            placeholder="Digite a url do Facebook"
+            placeholder="Digite a url do Linkedin"
             value={linkedin}
             onChange={(e)=> setLinkedin(e.target.value)}/>
 
